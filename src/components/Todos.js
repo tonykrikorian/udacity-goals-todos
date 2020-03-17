@@ -45,4 +45,4 @@ class Todos extends React.Component {
   }
 }
 
-export default connect(state => ({ goals: state.todos }))(Todos);
+export default connect(state => ({ todos: state.todos }))(Todos);

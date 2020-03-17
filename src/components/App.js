@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+
 import { connect } from "react-redux";
 import { handleInitialData } from "../actions/shared";
 import ConnectedTodos from "../components/Todos";
